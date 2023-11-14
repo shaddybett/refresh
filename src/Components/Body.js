@@ -5,16 +5,23 @@ export default function Body() {
 
   useEffect(() => {
     fetch(
-      "https://newsapi.org/v2/top-headlines?apikey=224c3858c2b5450bbbc3f81d857f08da"
+      "https://newsapi.org/v2/top-headlines?country=us&category=technology&apiKey=224c3858c2b5450bbbc3f81d857f08da"
     )
       .then((Response) => Response.json())
-      .then((news) => {
-        if (!Response === "ok") {
-          return "Error fetching";
-        } else {
-          setData(news);
-        }
-      });
+      .then((news) => setData(news))
+      .catch((error) => console.error("Sorry sir!", error));
   }, []);
-  return <div></div>;
+  return (
+    <div>
+    {data.articles ? (data.articles.map((news)=>(
+            <div key={news.title}>
+                <img src={news.urlToImage} alt={news.title}/>
+                <p>title:{news.title}</p>
+
+            </div>
+    ))
+        ) : (<p>Loading please wait</p>
+        )}
+        </div>
+  );
 }
