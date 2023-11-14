@@ -5,7 +5,7 @@ export default function Body() {
 
   useEffect(() => {
     fetch(
-      "https://newsapi.org/v2/top-headlines?country=us&category=technology&apiKey=224c3858c2b5450bbbc3f81d857f08da"
+      "  http://localhost:8000/articles"
     )
       .then((Response) => Response.json())
       .then((news) => setData(news))
@@ -13,15 +13,16 @@ export default function Body() {
   }, []);
   return (
     <div>
-    {data.articles ? (data.articles.map((news)=>(
-            <div key={news.title}>
-                <img src={news.urlToImage} alt={news.title}/>
-                <p>title:{news.title}</p>
-
-            </div>
-    ))
-        ) : (<p>Loading please wait</p>
-        )}
-        </div>
+      {data ? (
+        data.map((news) => (
+          <div key={news.title}>
+            <img src={news.urlToImage} alt={news.title} />
+            <p>title:{news.title}</p>
+          </div>
+        ))
+      ) : (
+        <p>Loading please wait</p>
+      )}
+    </div>
   );
 }

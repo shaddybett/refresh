@@ -12,7 +12,7 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "start": "concurrently \"npm run start:react\" \"https://newsapi.org/v2/top-headlines?country=us&category=technology&apiKey=224c3858c2b5450bbbc3f81d857f08da\"",
+    "start": "concurrently \"npm run start:react\" \"json-server --watch db.json --port 8000\"", 
     "start:react": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
