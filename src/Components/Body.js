@@ -20,7 +20,7 @@ export default function Body() {
     <div>
       <Link to='/'>home</Link>
       <Link to='/contact'>contact</Link>
-      <Link to='/'>whatsapp</Link>
+      
       {data ? (
         data.map((news) => (
           <div key={news.title}>
