@@ -44,7 +44,7 @@ export default function Home() {
     <input type="text" class="form-control" id="colFormLabelLg" value={user} placeholder="enter your username" onChange={handleUser}/>
   </div>
 </div>
-        <div class="col-12">
+        <div class="col-12" className='btn'>
         <button type='submit'class="btn btn-primary" >Submit</button>
         </div>
         
