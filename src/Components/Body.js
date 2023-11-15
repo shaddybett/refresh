@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-
+import './Style.css'
 
 
 export default function Body() {
@@ -14,16 +14,17 @@ export default function Body() {
       .catch((error) => console.error("Sorry sir!", error));
   }, []);
   return (
-    <div>
-      <a href="/">home</a>
-      <a href="/contact">contact</a>
-      
+    <div> 
+      <div   >
+      <a  href="/" class="link-danger link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover" >home</a>
+      <a href="/contact"  className="links"  >contact</a>
+      </div>
       {
       
       data ? (
         data.map((news) => (
           <div key={news.title} class="container text-center" >
-            <div class="row align-items-start" >
+            <div class="row row-cols-2 row-cols-lg-5 g-2 g-lg-3" >
             <div class="col" >
             <span  ><img src={news.urlToImage} alt={news.title} /></span>
             <p>title:{news.title}</p>
