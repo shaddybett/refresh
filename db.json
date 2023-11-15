@@ -1,17 +1,19 @@
 {
   "articles": [
       {
+        
           "source": {
               "id": null,
-              "name": "Pokemon GO Hub"
+              "name": "Dexerto"
           },
-          "author": "Pokémon GO Hub",
-          "title": "Mega Garchomp Raid Counters Guide | Pokémon GO Hub - Pokémon GO Hub",
-          "description": null,
-          "url": "https://pokemongohub.net/post/guide/mega-garchomp-raid-counters-guide/",
-          "urlToImage": null,
-          "publishedAt": "2023-11-13T06:20:28Z",
-          "content": null
+          "author": "Ethan Dean",
+          "title": "Starfield players hit out at “broken” quests halting their progress months after launch - Dexerto",
+          "description": "Starfield players are getting frustrating by the game's many progression bugs that have seen some players unable to complete multiple quests.",
+          "url": "https://www.dexerto.com/starfield/starfield-players-hit-out-at-broken-quests-halting-their-progress-months-after-launch-2380332/",
+          "urlToImage": "https://editors.dexerto.com/wp-content/uploads/2023/10/24/starfield-monster-costume.jpg",
+          "publishedAt": "2023-11-13T05:13:33Z",
+          "content": "Starfield bugs are still preventing players from completing a number of questlines. Many are calling the game broken.\r\nStarfield has been a polarizing game with some fans hailing it as a Game of the … [+2093 chars]"
+      
       },
       {
           "source": {
@@ -93,30 +95,165 @@
       },
       {
           "source": {
-              "id": "bloomberg",
-              "name": "Bloomberg"
+              "id": "politico",
+              "name": "Politico"
           },
           "author": null,
-          "title": "Apple (AAPL) China Sales Dip Stokes $20 Billion Xiaomi Rally - Bloomberg",
-          "description": null,
-          "url": "https://www.bloomberg.com/news/articles/2023-11-13/apple-s-china-woes-stoke-20-billion-xiaomi-rally-tech-watch",
-          "urlToImage": null,
-          "publishedAt": "2023-11-13T02:15:06Z",
-          "content": "To continue, please click the box below to let us know you're not a robot."
+          "title": "U.S. debt in danger of downgrade by Moody's as shutdown looms - POLITICO",
+          "description": "The credit rating firm cited risks to the U.S. fiscal outlook — namely, higher interest rates “without effective fiscal policy measures to reduce government spending or increase revenues.”",
+          "url": "https://www.politico.com/news/2023/11/10/u-s-debt-in-danger-of-downgrade-by-moodys-as-shutdown-looms-00126680",
+          "urlToImage": "https://static.politico.com/f8/cd/92ddec7a41f6904ad5438608982a/c8cc72f5-f63e-4ad7-8b36-2e4412fd71ca-hako8.JPG",
+          "publishedAt": "2023-11-11T01:56:53Z",
+          "content": "A lower debt rating raises the risk of higher borrowing costs for the federal government. \r\nThe warning comes as the government teeters on the brink of another shutdown next week and follows a move b… [+1772 chars]"
+      },
+      
+      {
+          "source": {
+              "id": "reuters",
+              "name": "Reuters"
+          },
+          "author": "Lewis Krauskopf, Amruta Khandekar, Shristi A",
+          "title": "Wall Street soars, fueled by tech as Treasury yields calm - Reuters",
+          "description": "Wall Street's main indexes ended with big gains on Friday, boosted by heavyweight tech and growth stocks as Treasury yields calmed, while investors looked ahead to a next week's reports on inflation and other economic data.",
+          "url": "https://www.reuters.com/markets/us/futures-mixed-after-powells-hawkish-tone-more-data-awaited-2023-11-10/",
+          "urlToImage": "https://www.reuters.com/resizer/DM0upoQc-cLmcLtVitoQqqRMG5A=/1200x628/smart/filters:quality(80)/cloudfront-us-east-2.images.arcpublishing.com/reuters/6FNAFVDOJNM65EKIL5LZ6FSYPA.jpg",
+          "publishedAt": "2023-11-11T00:04:00Z",
+          "content": "Nov 10 (Reuters) - Wall Street's main indexes ended with big gains on Friday, boosted by heavyweight tech and growth stocks as Treasury yields calmed, while investors looked ahead to a next week's re… [+3721 chars]"
       },
       {
           "source": {
               "id": null,
-              "name": "pymnts.com"
+              "name": "YouTube"
           },
-          "author": "PYMNTS",
-          "title": "Report: Google Weighs Further Investment in Character.AI - PYMNTS.com",
-          "description": "Google is in discussions to inject hundreds of millions into the artificial intelligence startup Character.AI to fund its mission to train chatbot models.",
-          "url": "https://www.pymnts.com/artificial-intelligence-2/2023/report-google-weighs-further-investment-in-character-ai/",
-          "urlToImage": null,
-          "publishedAt": "2023-11-12T23:23:55Z",
-          "content": "Google could reportedly bolster its partnership with Character.AI via a significant investment.\r\nThe tech giant is in discussions to inject hundreds of millions into the artificial intelligence (AI) … [+2484 chars]"
+          "author": null,
+          "title": "Singles’ Day: world’s biggest online shopping event under way amid slowdown in Chinese economy - South China Morning Post",
+          "description": "Subscribe to our YouTube channel for free here: https://sc.mp/subscribe-youtubeRead more about Singles’ Day: https://sc.mp/uabbChinese retailers have kicked ...",
+          "url": "https://www.youtube.com/watch?v=gj4xlmeKXF0",
+          "urlToImage": "https://i.ytimg.com/vi/gj4xlmeKXF0/maxresdefault.jpg",
+          "publishedAt": "2023-11-11T00:00:26Z",
+          "content": null
       },
+     
+      {
+          "source": {
+              "id": "reuters",
+              "name": "Reuters"
+          },
+          "author": "Carolina Mandl",
+          "title": "Hedge funds short US financial stocks at near record levels -Goldman Sachs - Reuters",
+          "description": "Global hedge funds built bearish positions this week to the highest level in nearly five years, Goldman Sachs <a href=\"https://www.reuters.com/markets/companies/GS.N\" target=\"_blank\">(GS.N)</a> said on Friday, without citing the underlying reasons.",
+          "url": "https://www.reuters.com/business/finance/hedge-funds-short-us-financial-stocks-near-record-levels-goldman-sachs-2023-11-10/",
+          "urlToImage": "https://www.reuters.com/resizer/uGMgzViOhGhcXaTQZNjapiVCAeY=/1200x628/smart/filters:quality(80)/cloudfront-us-east-2.images.arcpublishing.com/reuters/M3XE3VTGFVL3DDVSCVWTJWBMOU.jpg",
+          "publishedAt": "2023-11-10T22:30:00Z",
+          "content": "NEW YORK, Nov 10 (Reuters) - Global hedge funds built bearish positions this week to the highest level in nearly five years, Goldman Sachs (GS.N) said on Friday, without citing the underlying reasons… [+841 chars]"
+      },
+      {
+          "source": {
+              "id": "politico",
+              "name": "Politico"
+          },
+          "author": null,
+          "title": "UN climate summit host pushes oil producers for advance deal - POLITICO",
+          "description": "The oil-producing country hosting the annual UN climate conference wants other petroleum producers to pledge to curb greenhouse gases, but critics say the plan doesn't go far enough.",
+          "url": "https://www.politico.com/news/2023/11/10/cop28-host-uae-pushes-oil-producers-for-climate-pledges-00126619",
+          "urlToImage": "https://static.politico.com/fa/1f/abd6e9e04958b096600e3599a552/emirates-oil-exhibition-23658.jpg",
+          "publishedAt": "2023-11-10T21:00:00Z",
+          "content": "The initiatives backers hope it brings national oil companies, which can range from giants like Saudi Aramco to smaller producers like Colombias Ecopetrol, into a dialogue on taming greenhouse gases.… [+6616 chars]"
+      },
+      {
+          "source": {
+              "id": null,
+              "name": "MarketWatch"
+          },
+          "author": "Brett Arends",
+          "title": "U.S. Treasury bonds are not ’safe’ - MarketWatch",
+          "description": "10-year Treasury bonds have been a worse investment than gold bullion this year, last year, the year before that, and all the way back to 2018",
+          "url": "https://www.marketwatch.com/story/u-s-treasury-bonds-are-not-safe-f365a8c0",
+          "urlToImage": "https://images.mktw.net/im-885252/social",
+          "publishedAt": "2023-11-10T20:55:00Z",
+          "content": "Ask any financial planner or Wall Street type and theyll tell you U.S. Treasury bonds are the safest asset you can own.In the halls of the financial establishment, the yield, or interest rate, on 10-… [+10150 chars]"
+      },
+      {
+        "source": {
+            "id": "politico",
+            "name": "Politico"
+        },
+        "author": null,
+        "title": "UN climate summit host pushes oil producers for advance deal - POLITICO",
+        "description": "The oil-producing country hosting the annual UN climate conference wants other petroleum producers to pledge to curb greenhouse gases, but critics say the plan doesn't go far enough.",
+        "url": "https://www.politico.com/news/2023/11/10/cop28-host-uae-pushes-oil-producers-for-climate-pledges-00126619",
+        "urlToImage": "https://static.politico.com/fa/1f/abd6e9e04958b096600e3599a552/emirates-oil-exhibition-23658.jpg",
+        "publishedAt": "2023-11-10T21:00:00Z",
+        "content": "The initiatives backers hope it brings national oil companies, which can range from giants like Saudi Aramco to smaller producers like Colombias Ecopetrol, into a dialogue on taming greenhouse gases.… [+6616 chars]"
+    },
+    {
+        "source": {
+            "id": null,
+            "name": "MarketWatch"
+        },
+        "author": "Brett Arends",
+        "title": "U.S. Treasury bonds are not ’safe’ - MarketWatch",
+        "description": "10-year Treasury bonds have been a worse investment than gold bullion this year, last year, the year before that, and all the way back to 2018",
+        "url": "https://www.marketwatch.com/story/u-s-treasury-bonds-are-not-safe-f365a8c0",
+        "urlToImage": "https://images.mktw.net/im-885252/social",
+        "publishedAt": "2023-11-10T20:55:00Z",
+        "content": "Ask any financial planner or Wall Street type and theyll tell you U.S. Treasury bonds are the safest asset you can own.In the halls of the financial establishment, the yield, or interest rate, on 10-… [+10150 chars]"
+    },
+    
+    {
+        "source": {
+            "id": null,
+            "name": "YouTube"
+        },
+        "author": null,
+        "title": "WeWork's end, Neumann's return? Who's left holding the bag, and what comes next - CNBC Television",
+        "description": "WeWork took us on a wild ride. A real estate company disguised as a tech startup, holding long-term leases and turning them around for short-term rentals. It...",
+        "url": "https://www.youtube.com/watch?v=g_PH986UwvE",
+        "urlToImage": "https://i.ytimg.com/vi/g_PH986UwvE/maxresdefault.jpg",
+        "publishedAt": "2023-11-10T20:31:42Z",
+        "content": null
+    },
+    {
+        "source": {
+            "id": null,
+            "name": "MarketWatch"
+        },
+        "author": "Frances Yue",
+        "title": "Bitcoin could reach $150,000 in 2025, says AllianceBernstein - MarketWatch",
+        "description": "Bitcoin could reach a cycle high of as much as $150,000 in 2025",
+        "url": "https://www.marketwatch.com/story/bitcoin-could-reach-150-000-in-2025-during-new-bull-cycle-says-alliancebernstein-37cc32a3",
+        "urlToImage": "https://images.mktw.net/im-672776/social",
+        "publishedAt": "2023-11-10T20:21:00Z",
+        "content": "Bitcoin could reach a cycle high of as much as $150,000 in 2025, driven by the so-called halving event and institutional inflow brought by bitcoin exchange traded funds, which are expected to be appr… [+1281 chars]"
+    },
+    {
+        "source": {
+            "id": null,
+            "name": "YouTube"
+        },
+        "author": null,
+        "title": "Ether rises nearly 4% after BlackRock files to launch spot ETF: CNBC Crypto World - CNBC Television",
+        "description": "CNBC Crypto World features the latest news and daily trading updates from the digital currency markets and provides viewers with a look at what’s ahead with ...",
+        "url": "https://www.youtube.com/watch?v=fMolkHfIIsE",
+        "urlToImage": "https://i.ytimg.com/vi/fMolkHfIIsE/maxresdefault.jpg",
+        "publishedAt": "2023-11-10T20:16:18Z",
+        "content": null
+    },
+    {
+        "source": {
+            "id": "cbs-news",
+            "name": "CBS News"
+        },
+        "author": "Angelica Leicht",
+        "title": "Are 1-gram gold bars worth buying? - CBS News",
+        "description": "Investing in 1-gram gold bars can be a more affordable, accessible way to buy gold, but should you take this route?",
+        "url": "https://www.cbsnews.com/news/are-1-gram-gold-bars-worth-buying/",
+        "urlToImage": "https://assets1.cbsnewsstatic.com/hub/i/r/2023/11/10/c4a1b0ba-7859-48a3-a496-a45b6169c189/thumbnail/1200x630/314e069ddb755a57c5bc0a6343a9d864/gettyimages-135929363.jpg?v=8afad5e29ac9a704fff9d98ba34d3649",
+        "publishedAt": "2023-11-10T19:57:15Z",
+        "content": "If you're investing in physical gold, 1-gram gold bars are one option that may be worth considering.\r\nGetty Images\r\nIn the world of precious metals, gold has long been revered for its timeless beauty… [+6046 chars]"
+    },
+   
+ 
       {
           "source": {
               "id": "buzzfeed",
@@ -248,17 +385,17 @@
           "content": "The very best single-player video games offer multiple points that stick with players; moments that people will want to revisit for years or even decades after. Unfortunately, it's not always easy to… [+2765 chars]"
       },
       {
-          "source": {
-              "id": "google-news",
-              "name": "Google News"
-          },
-          "author": "BoLS",
-          "title": "Warhammer 40K Next Week: Epic Is Back With Legions Imperialis Launching - BoLS",
-          "description": null,
-          "url": "https://news.google.com/rss/articles/CBMic2h0dHBzOi8vd3d3LmJlbGxvZmxvc3Rzb3Vscy5uZXQvMjAyMy8xMS93YXJoYW1tZXItNDBrLW5leHQtd2Vlay1lcGljLWlzLWJhY2std2l0aC1sZWdpb25zLWltcGVyaWFsaXMtbGF1bmNoaW5nLmh0bWzSAQA?oc=5",
-          "urlToImage": null,
-          "publishedAt": "2023-11-12T19:33:01Z",
-          "content": null
-      }
+        "source": {
+            "id": null,
+            "name": "Dexerto"
+        },
+        "author": "Jake Nichols",
+        "title": "Do Modern Warfare 2 levels carry forward into Modern Warfare 3? - Dexerto",
+        "description": "Modern Warfare 3 is here and players are wondering if Modern Warfare 2 progress from ranks and levels carries forward or over into MW3.",
+        "url": "https://www.dexerto.com/call-of-duty/do-modern-warfare-2-levels-carry-forward-into-modern-warfare-3-2380308/",
+        "urlToImage": "https://editors.dexerto.com/wp-content/uploads/2023/10/09/mw3-favela-spawns.jpg",
+        "publishedAt": "2023-11-13T05:38:33Z",
+        "content": "With the arrival of Modern Warfare 3, players are left wondering whether their hard-earned levels and prestige from Modern Warfare 2 will carry forward into the new game. \r\nIn August, Activision reve… [+2255 chars]"
+    }
   ]
 }
