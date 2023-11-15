@@ -1,8 +1,12 @@
 import React from "react";
 import { useEffect, useState } from "react";
+import { Link } from "react-router-dom";
+import Home from "./Home";
+
+
 export default function Body() {
   const [data, setData] = useState([]);
-
+    
   useEffect(() => {
     fetch(
       "  http://localhost:8000/articles"
@@ -13,6 +17,7 @@ export default function Body() {
   }, []);
   return (
     <div>
+      <Link to='/'>home</Link>
       {data ? (
         data.map((news) => (
           <div key={news.title}>
