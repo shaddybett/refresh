@@ -15,9 +15,9 @@ export default function Body() {
   }, []);
   return (
     <div>
-      <Link to='/'>home</Link>
-      <Link to='/contact'>contact</Link>
-      <Link to='/'>whatsapp</Link>
+      <a href="/">home</a>
+      <a href="/contact">contact</a>
+      
       {data ? (
         data.map((news) => (
           <div key={news.title}>
