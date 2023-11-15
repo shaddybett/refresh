@@ -2,11 +2,19 @@
     
     margin-left: 20px;
 }
-.img{
-    height: 200px;
+.card{
+    height: auto;
     border-radius: 10px;
-    margin-top: 40px;
+    margin-top: 20px;
+    width: 800px;
 }
 .title{
     width: 200px;
+}
+.inputs{
+    transform: translateY(200px) translateX(400px);
+}
+.well{
+    display: flex;
+    justify-content: center;
 }
