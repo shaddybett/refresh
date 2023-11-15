@@ -15,7 +15,7 @@ export default function Body() {
   }, []);
   return (
     <div> 
-      <div   >
+      <div  className="link" >
       <a  href="/" class="link-danger link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover" >home</a>
       <a href="/contact"  className="links"  >contact</a>
       </div>

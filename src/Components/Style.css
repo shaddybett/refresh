@@ -1,12 +1,18 @@
 .links{
     
     margin-left: 20px;
+    margin-top: 20PX;
+}
+.link{
+    margin-bottom: 20px;
+    
 }
 .card{
     height: auto;
+   
     border-radius: 10px;
-    margin-top: 20px;
-    width: 750px;
+    
+    width: 400px;
 }
 .title{
     width: 200px;
