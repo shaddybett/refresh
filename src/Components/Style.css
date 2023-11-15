@@ -2,12 +2,12 @@
     
     margin-left: 20px;
     margin-top: 20PX;
-    
+    color: rgb(214, 13, 13);
 }
 .link{
     margin-bottom: 20px;
-    display: flex;
-    justify-content: space-between;
+   
+   
     
 }
 .card{
