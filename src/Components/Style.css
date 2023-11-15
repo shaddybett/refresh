@@ -1,12 +1,36 @@
 .links{
     
     margin-left: 20px;
+    margin-top: 20PX;
 }
-.img{
-    height: 200px;
+.link{
+    margin-bottom: 20px;
+    
+}
+.card{
+    height: auto;
+   
     border-radius: 10px;
-    margin-top: 40px;
+    
+    width: 400px;
 }
 .title{
     width: 200px;
+}
+.inputs{
+    
+    transform: translateY(200px) translateX(400px);
+}
+.well{
+    display: flex;
+    justify-content: center;
+    color: aliceblue;
+}
+.btn{
+    transform: translateY(8px) translateX(30px);
+}
+.card-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(400px,1fr));
+    gap: 20px;
 }
