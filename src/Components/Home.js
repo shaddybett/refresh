@@ -1,11 +1,10 @@
 import React from 'react'
 import { useState } from 'react'
-import { useNavigate,Navigate } from 'react-router-dom'
-import Body from './Body'
+import { useNavigate } from 'react-router-dom'
 export default function Home() {
     const[email,setEmail] = useState('')
     const[user,setUser] = useState('')
-
+    const navigate = useNavigate();
     function handleChange(event){
         setEmail(event.target.value)
        
@@ -16,22 +15,26 @@ export default function Home() {
       
     }
     function handleSubmit(event){
-
-      event.preventDefault()
+      event.preventDefault();
       if(user && email){
-      <Navigate to={<Body/>}/>
+      navigate('/body');
+      }
+      else{
+        alert('enter valid inputs')
       }
     
     }
   
   return (
-    <div>
+    <div> 
+      <form onSubmit={handleSubmit}>
         <h1>Welcome</h1>
         <input type='email' placeholder='enter your email' value={email} onChange={handleChange}/>
         <br/>
         <input type='text' placeholder='enter your username' value={user} onChange={handleUser}/>
         <br/>
-        <button onClick={handleSubmit}>Submit</button>
+        <button type='submit'>Submit</button>
+        </form>
     </div>
   )
 }

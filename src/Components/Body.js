@@ -1,7 +1,8 @@
 import React from "react";
 import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
-import Home from "./Home";
+
+
 
 
 export default function Body() {
@@ -18,6 +19,8 @@ export default function Body() {
   return (
     <div>
       <Link to='/'>home</Link>
+      <Link to='/contact'>contact</Link>
+      <Link to='/'>whatsapp</Link>
       {data ? (
         data.map((news) => (
           <div key={news.title}>
