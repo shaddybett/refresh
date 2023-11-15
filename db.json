@@ -1,17 +1,19 @@
 {
   "articles": [
       {
+        
           "source": {
               "id": null,
-              "name": "Pokemon GO Hub"
+              "name": "Dexerto"
           },
-          "author": "Pokémon GO Hub",
-          "title": "Mega Garchomp Raid Counters Guide | Pokémon GO Hub - Pokémon GO Hub",
-          "description": null,
-          "url": "https://pokemongohub.net/post/guide/mega-garchomp-raid-counters-guide/",
-          "urlToImage": null,
-          "publishedAt": "2023-11-13T06:20:28Z",
-          "content": null
+          "author": "Ethan Dean",
+          "title": "Starfield players hit out at “broken” quests halting their progress months after launch - Dexerto",
+          "description": "Starfield players are getting frustrating by the game's many progression bugs that have seen some players unable to complete multiple quests.",
+          "url": "https://www.dexerto.com/starfield/starfield-players-hit-out-at-broken-quests-halting-their-progress-months-after-launch-2380332/",
+          "urlToImage": "https://editors.dexerto.com/wp-content/uploads/2023/10/24/starfield-monster-costume.jpg",
+          "publishedAt": "2023-11-13T05:13:33Z",
+          "content": "Starfield bugs are still preventing players from completing a number of questlines. Many are calling the game broken.\r\nStarfield has been a polarizing game with some fans hailing it as a Game of the … [+2093 chars]"
+      
       },
       {
           "source": {
@@ -90,32 +92,6 @@
           "urlToImage": "https://editors.dexerto.com/wp-content/uploads/2023/11/13/MW3-header-img.jpg",
           "publishedAt": "2023-11-13T02:27:55Z",
           "content": "Modern Warfare 3 has just been released, and those who are grinding the game will want to know what the highest level is, so here is everything you need to know about the maximum level cap in MW3. \r\n… [+1836 chars]"
-      },
-      {
-          "source": {
-              "id": "bloomberg",
-              "name": "Bloomberg"
-          },
-          "author": null,
-          "title": "Apple (AAPL) China Sales Dip Stokes $20 Billion Xiaomi Rally - Bloomberg",
-          "description": null,
-          "url": "https://www.bloomberg.com/news/articles/2023-11-13/apple-s-china-woes-stoke-20-billion-xiaomi-rally-tech-watch",
-          "urlToImage": null,
-          "publishedAt": "2023-11-13T02:15:06Z",
-          "content": "To continue, please click the box below to let us know you're not a robot."
-      },
-      {
-          "source": {
-              "id": null,
-              "name": "pymnts.com"
-          },
-          "author": "PYMNTS",
-          "title": "Report: Google Weighs Further Investment in Character.AI - PYMNTS.com",
-          "description": "Google is in discussions to inject hundreds of millions into the artificial intelligence startup Character.AI to fund its mission to train chatbot models.",
-          "url": "https://www.pymnts.com/artificial-intelligence-2/2023/report-google-weighs-further-investment-in-character-ai/",
-          "urlToImage": null,
-          "publishedAt": "2023-11-12T23:23:55Z",
-          "content": "Google could reportedly bolster its partnership with Character.AI via a significant investment.\r\nThe tech giant is in discussions to inject hundreds of millions into the artificial intelligence (AI) … [+2484 chars]"
       },
       {
           "source": {
@@ -248,17 +224,17 @@
           "content": "The very best single-player video games offer multiple points that stick with players; moments that people will want to revisit for years or even decades after. Unfortunately, it's not always easy to… [+2765 chars]"
       },
       {
-          "source": {
-              "id": "google-news",
-              "name": "Google News"
-          },
-          "author": "BoLS",
-          "title": "Warhammer 40K Next Week: Epic Is Back With Legions Imperialis Launching - BoLS",
-          "description": null,
-          "url": "https://news.google.com/rss/articles/CBMic2h0dHBzOi8vd3d3LmJlbGxvZmxvc3Rzb3Vscy5uZXQvMjAyMy8xMS93YXJoYW1tZXItNDBrLW5leHQtd2Vlay1lcGljLWlzLWJhY2std2l0aC1sZWdpb25zLWltcGVyaWFsaXMtbGF1bmNoaW5nLmh0bWzSAQA?oc=5",
-          "urlToImage": null,
-          "publishedAt": "2023-11-12T19:33:01Z",
-          "content": null
-      }
+        "source": {
+            "id": null,
+            "name": "Dexerto"
+        },
+        "author": "Jake Nichols",
+        "title": "Do Modern Warfare 2 levels carry forward into Modern Warfare 3? - Dexerto",
+        "description": "Modern Warfare 3 is here and players are wondering if Modern Warfare 2 progress from ranks and levels carries forward or over into MW3.",
+        "url": "https://www.dexerto.com/call-of-duty/do-modern-warfare-2-levels-carry-forward-into-modern-warfare-3-2380308/",
+        "urlToImage": "https://editors.dexerto.com/wp-content/uploads/2023/10/09/mw3-favela-spawns.jpg",
+        "publishedAt": "2023-11-13T05:38:33Z",
+        "content": "With the arrival of Modern Warfare 3, players are left wondering whether their hard-earned levels and prestige from Modern Warfare 2 will carry forward into the new game. \r\nIn August, Activision reve… [+2255 chars]"
+    }
   ]
 }
