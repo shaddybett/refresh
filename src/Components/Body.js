@@ -1,8 +1,5 @@
-import React from "react";
-import { useEffect, useState } from "react";
+import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
-
-
 
 
 export default function Body() {
@@ -20,7 +17,7 @@ export default function Body() {
     <div>
       <Link to='/'>home</Link>
       <Link to='/contact'>contact</Link>
-      
+      <Link to='/'>whatsapp</Link>
       {data ? (
         data.map((news) => (
           <div key={news.title}>
