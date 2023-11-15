@@ -23,14 +23,15 @@ export default function Body() {
       
       data ? (
         data.map((news) => (
-          <div key={news.title}  >
-            <div>
+          <div key={news.title} class="card mb-3" >
+            <div class="row g-0" >
 
-            <div  class="card"><img src={news.urlToImage} alt={news.title} /></div>
+            <div  class="card"><img src={news.urlToImage} class="img-fluid rounded-start" alt={news.title} /></div>
+            <div class="col-md-8">
             <div   class="card-body">
-            <p class="card-text">title:{news.title}</p>
+            <p class="card-title">title:{news.title}</p>
       
-
+            </div>
             </div>
             </div>
           </div>
