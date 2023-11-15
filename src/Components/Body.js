@@ -18,16 +18,25 @@ export default function Body() {
       <a href="/">home</a>
       <a href="/contact">contact</a>
       
-      {data ? (
+      {
+      
+      data ? (
         data.map((news) => (
-          <div key={news.title}>
-            <img src={news.urlToImage} alt={news.title} />
+          <div key={news.title} class="container text-center" >
+            <div class="row align-items-start" >
+            <div class="col" >
+            <span  ><img src={news.urlToImage} alt={news.title} /></span>
             <p>title:{news.title}</p>
+
+            </div>
+            </div>
           </div>
         ))
       ) : (
         <p>Loading please wait</p>
-      )}
+      )
+     
+      }
     </div>
   );
 }
