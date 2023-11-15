@@ -27,13 +27,25 @@ export default function Home() {
   
   return (
     <div> 
-      <form onSubmit={handleSubmit}>
+      <form onSubmit={handleSubmit}  class="row row-cols-lg-auto g-3 align-items-center" > 
         <h1>Welcome</h1>
-        <input type='email' placeholder='enter your email' value={email} onChange={handleChange}/>
+        <div class="col-12">
+  <label for="colFormLabel" class="col-sm-2 col-form-label">Email</label>
+  <div class="col-sm-12">
+        <input type='email' id="colFormLabelLg" placeholder='enter your email' value={email} onChange={handleChange}/>
+        </div>
+        </div>
         <br/>
-        <input type='text' placeholder='enter your username' value={user} onChange={handleUser}/>
+        <div class="col-12">
+  <label  for="inlineFormInputGroupUsername">Username</label>
+  <div class="col-sm-12">
+    <input type="text"  id="colFormLabelLg" value={user} placeholder="enter your username" onChange={handleUser}/>
+  </div>
+</div>
         <br/>
-        <button type='submit'>Submit</button>
+        <div class="col-12">
+        <button type='submit'class="btn btn-primary" >Submit</button>
+        </div>
         </form>
     </div>
   )
