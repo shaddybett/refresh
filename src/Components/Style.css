@@ -2,9 +2,12 @@
     
     margin-left: 20px;
     margin-top: 20PX;
+    
 }
 .link{
     margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
     
 }
 .card{
