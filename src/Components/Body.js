@@ -2,9 +2,9 @@ import React, { useEffect, useState } from "react";
 import "./Style.css";
 
 export default function Body() {
-  const [data, setData] = useState();
+  const [data, setData] = useState([]);
   // const [search,setSearch]= useState()
-  const[currentPage, setCurrentPage] = useState([])
+  const[currentPage, setCurrentPage] = useState(1)
   let pageSize = 9;
 
   useEffect(() => {
