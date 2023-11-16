@@ -64,12 +64,13 @@ export default function Body() {
 
       <div className="search-container">
         <input
+        className="search"
           type="text"
           placeholder="search by title"
           value={search}
           onChange={handleSearchInputChange}
         />
-        <button onClick={handleSearch}>Search</button>
+        <button className="button" onClick={handleSearch}>Search</button>
       </div>
 
       <div className="card-container">
@@ -96,11 +97,11 @@ export default function Body() {
           <p>No matching results found</p>
         )}
       </div>
-      <div>
-        <button onClick={prevPage} disabled={currentPage === 1}>
+      <div className="paginate">
+        <button className="pagA" onClick={prevPage} disabled={currentPage === 1}>
           Back
         </button>
-        <button
+        <button className="pagB"
           onClick={nextPage}
           disabled={currentPage === Math.ceil(filteredData.length / pageSize)}
         >
