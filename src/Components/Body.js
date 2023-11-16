@@ -34,11 +34,12 @@ export default function Body() {
           contact
         </a>
       </div>
-      
+
       {/* <input type="text" placeholder="search by title" value={search} onChange={handleSearch}/> */}
 
       <div className="card-container">
-        {data ? (data.slice(0, pageSize).map((news) => (
+        {data ? (
+          data.slice(0, pageSize).map((news) => (
             <div key={news.title} class="card mb-3">
               <div class="row g-0">
                 <div class="card">
@@ -60,6 +61,12 @@ export default function Body() {
           <p>Loading please wait</p>
         )}
       </div>
+      <div>
+          <div>
+            <button onClick={prevPage}>Back</button>
+            <button onClick={nextPage}>Next</button>
+          </div>
+        </div>
     </div>
   );
 }
