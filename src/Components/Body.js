@@ -122,6 +122,8 @@ export default function Body() {
   // function handleSearch(event){
   //   setSearch(event.target.value)
   // }
+  const startIndex = (currentPage-1) * pageSize;
+  const endIndex = startIndex + pageSize
 
   return (
     <div>
@@ -141,7 +143,7 @@ export default function Body() {
 
       <div className="card-container">
         {data ? (
-          data.slice(0, pageSize).map((news) => (
+          data.slice(0, pageSize).slice(startIndex,endIndex).map((news) => (
             <div key={news.title} class="card mb-3">
               <div class="row g-0">
                 <div class="card">
