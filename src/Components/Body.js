@@ -3,6 +3,7 @@ import "./Style.css";
 
 export default function Body() {
   const [data, setData] = useState([]);
+  let pageSize = 9;
 
   useEffect(() => {
     fetch("  http://localhost:8000/articles")
@@ -25,7 +26,7 @@ export default function Body() {
       </div>
       <div className="card-container">
         {data ? (
-          data.map((news) => (
+          data.slice(0, pageSize).map((news) => (
             <div key={news.title} class="card mb-3">
               <div class="row g-0">
                 <div class="card">
