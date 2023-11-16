@@ -3,6 +3,7 @@ import "./Style.css";
 
 export default function Body() {
   const [data, setData] = useState([]);
+  const [search,setSearch]= useState()
   let pageSize = 9;
 
   useEffect(() => {
@@ -11,6 +12,10 @@ export default function Body() {
       .then((news) => setData(news))
       .catch((error) => console.error("Sorry sir!", error));
   }, []);
+
+  function handleSearch(event){
+    setSearch(event.target.value)
+  }
   return (
     <div>
       <div className="link">
@@ -24,6 +29,8 @@ export default function Body() {
           contact
         </a>
       </div>
+      
+      <input type="text" placeholder="search by title" value={search} onChange={handleSearch}/>
       <div className="card-container">
         {data ? (
           data.slice(0, pageSize).map((news) => (
