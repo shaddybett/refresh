@@ -9,7 +9,7 @@ export default function Body() {
   const [filteredData, setFilteredData] = useState([]);
 
   useEffect(() => {
-    fetch("http://localhost:8000/articles")
+    fetch("http://localhost:5000/articles")
       .then((response) => response.json())
       .then((news) => setData(news))
       .catch((error) => console.error("Sorry sir!", error));
@@ -19,7 +19,26 @@ export default function Body() {
     const filtered = data.filter((news) =>
       news.title.toLowerCase().includes(search.toLowerCase())
     );
-    setFilteredData(filtered);
+
+    // Sort by relevance, where articles with the search term in the title come first
+    const sortedFilteredData = filtered.sort((a, b) => {
+      const aTitle = a.title.toLowerCase();
+      const bTitle = b.title.toLowerCase();
+      const searchTerm = search.toLowerCase();
+
+      const aTitleIncludesSearch = aTitle.includes(searchTerm);
+      const bTitleIncludesSearch = bTitle.includes(searchTerm);
+
+      if (aTitleIncludesSearch && !bTitleIncludesSearch) {
+        return -1;
+      } else if (!aTitleIncludesSearch && bTitleIncludesSearch) {
+        return 1;
+      } else {
+        return 0;
+      }
+    });
+
+    setFilteredData(sortedFilteredData);
   }, [data, search]);
 
   function prevPage() {
@@ -38,7 +57,25 @@ export default function Body() {
     const filtered = data.filter((news) =>
       news.title.toLowerCase().includes(search.toLowerCase())
     );
-    setFilteredData(filtered);
+    // Sort by relevance, where articles with the search term in the title come first
+    const sortedFilteredData = filtered.sort((a, b) => {
+      const aTitle = a.title.toLowerCase();
+      const bTitle = b.title.toLowerCase();
+      const searchTerm = search.toLowerCase();
+
+      const aTitleIncludesSearch = aTitle.includes(searchTerm);
+      const bTitleIncludesSearch = bTitle.includes(searchTerm);
+
+      if (aTitleIncludesSearch && !bTitleIncludesSearch) {
+        return -1;
+      } else if (!aTitleIncludesSearch && bTitleIncludesSearch) {
+        return 1;
+      } else {
+        return 0;
+      }
+    });
+
+    setFilteredData(sortedFilteredData);
   }
 
   function handleSearchInputChange(event) {
@@ -64,13 +101,15 @@ export default function Body() {
 
       <div className="search-container">
         <input
-        className="search"
+          className="search"
           type="text"
           placeholder="search by title"
           value={search}
           onChange={handleSearchInputChange}
         />
-        <button className="button" onClick={handleSearch}>Search</button>
+        <button className="button" onClick={handleSearch}>
+          Search
+        </button>
       </div>
 
       <div className="card-container">
@@ -98,10 +137,15 @@ export default function Body() {
         )}
       </div>
       <div className="paginate">
-        <button className="pagA" onClick={prevPage} disabled={currentPage === 1}>
+        <button
+          className="pagA"
+          onClick={prevPage}
+          disabled={currentPage === 1}
+        >
           Back
         </button>
-        <button className="pagB"
+        <button
+          className="pagB"
           onClick={nextPage}
           disabled={currentPage === Math.ceil(filteredData.length / pageSize)}
         >
