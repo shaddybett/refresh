@@ -3,6 +3,8 @@ import "./Style.css";
 
 export default function Body() {
   const [data, setData] = useState([]);
+  // const [search,setSearch]= useState()
+  let pageSize = 9;
 
   useEffect(() => {
     fetch("  http://localhost:8000/articles")
@@ -10,6 +12,15 @@ export default function Body() {
       .then((news) => setData(news))
       .catch((error) => console.error("Sorry sir!", error));
   }, []);
+
+  // const filteredData = data.filter((news)=>
+  // news.title.toLowerCase().includes(search.toLowerCase())
+  // );
+
+  // function handleSearch(event){
+  //   setSearch(event.target.value)
+  // }
+
   return (
     <div>
       <div className="link">
@@ -23,9 +34,11 @@ export default function Body() {
           contact
         </a>
       </div>
+      
+      {/* <input type="text" placeholder="search by title" value={search} onChange={handleSearch}/> */}
+
       <div className="card-container">
-        {data ? (
-          data.map((news) => (
+        {data ? (data.slice(0, pageSize).map((news) => (
             <div key={news.title} class="card mb-3">
               <div class="row g-0">
                 <div class="card">
