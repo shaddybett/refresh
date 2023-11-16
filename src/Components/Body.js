@@ -2,8 +2,9 @@ import React, { useEffect, useState } from "react";
 import "./Style.css";
 
 export default function Body() {
-  const [data, setData] = useState([]);
+  const [data, setData] = useState();
   // const [search,setSearch]= useState()
+  const[currentPage, setCurrentPage] = useState([])
   let pageSize = 9;
 
   useEffect(() => {
@@ -13,6 +14,16 @@ export default function Body() {
       .catch((error) => console.error("Sorry sir!", error));
   }, []);
 
+function prevPage(){
+  if(currentPage>1){
+    setCurrentPage(currentPage-1)
+  }
+
+}
+
+function nextPage(){
+setCurrentPage(currentPage + 1)
+}
   // const filteredData = data.filter((news)=>
   // news.title.toLowerCase().includes(search.toLowerCase())
   // );
