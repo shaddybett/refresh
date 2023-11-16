@@ -32,6 +32,9 @@ setCurrentPage(currentPage + 1)
   //   setSearch(event.target.value)
   // }
 
+  const startIndex = (currentPage - 1) * pageSize;
+  const endIndex = startIndex + pageSize;
+
   return (
     <div>
       <div className="link">
@@ -50,7 +53,7 @@ setCurrentPage(currentPage + 1)
 
       <div className="card-container">
         {data ? (
-          data.slice(0, pageSize).map((news) => (
+          data.slice(startIndex, endIndex).slice(0, pageSize).map((news) => (
             <div key={news.title} class="card mb-3">
               <div class="row g-0">
                 <div class="card">
@@ -74,8 +77,12 @@ setCurrentPage(currentPage + 1)
       </div>
       <div>
           <div>
-            <button onClick={prevPage}>Back</button>
-            <button onClick={nextPage}>Next</button>
+            <button onClick={prevPage} disabled={currentPage === 1}>
+              Back
+              </button>
+            <button onClick={nextPage} disabled={currentPage === Math.ceil(data.length / pageSize)}>
+              Next
+              </button>
           </div>
         </div>
     </div>
