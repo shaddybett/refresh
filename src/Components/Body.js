@@ -111,7 +111,10 @@ export default function Body() {
     }}
 
     function nextPage() {
-      setCurrentPage(currentPage + 1);
+      if(currentPage < Math.ceil(data.length / pageSize)) {
+        setCurrentPage(currentPage + 1);
+      }
+      
     }
   
 
