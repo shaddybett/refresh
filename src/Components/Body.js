@@ -165,7 +165,7 @@ export default function Body() {
       </div>
       <div>
         <button onClick={prevPage}disabled={currentPage===1}>Back</button>
-        <button onClick={nextPage}>Next</button>
+        <button onClick={nextPage} disabled={currentPage === Math.ceil(data.length / pageSize)} >Next</button>
       </div>
     </div>
   );
