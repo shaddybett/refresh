@@ -4,6 +4,7 @@ import "./Style.css";
 export default function Body() {
   const [data, setData] = useState([]);
   // const [search,setSearch]= useState()
+  const[currentPage, setCurrentPage] = useState(1)
   let pageSize = 9;
 
   useEffect(() => {
@@ -13,6 +14,16 @@ export default function Body() {
       .catch((error) => console.error("Sorry sir!", error));
   }, []);
 
+function prevPage(){
+  if(currentPage>1){
+    setCurrentPage(currentPage-1)
+  }
+
+}
+
+function nextPage(){
+setCurrentPage(currentPage + 1)
+}
   // const filteredData = data.filter((news)=>
   // news.title.toLowerCase().includes(search.toLowerCase())
   // );
@@ -20,6 +31,9 @@ export default function Body() {
   // function handleSearch(event){
   //   setSearch(event.target.value)
   // }
+
+  const startIndex = (currentPage - 1) * pageSize;
+  const endIndex = startIndex + pageSize;
 
   return (
     <div>
@@ -34,11 +48,12 @@ export default function Body() {
           contact
         </a>
       </div>
-      
+
       {/* <input type="text" placeholder="search by title" value={search} onChange={handleSearch}/> */}
 
       <div className="card-container">
-        {data ? (data.slice(0, pageSize).map((news) => (
+        {data ? (
+          data.slice(startIndex, endIndex).slice(0, pageSize).map((news) => (
             <div key={news.title} class="card mb-3">
               <div class="row g-0">
                 <div class="card">
@@ -60,6 +75,16 @@ export default function Body() {
           <p>Loading please wait</p>
         )}
       </div>
+      <div>
+          <div>
+            <button onClick={prevPage} disabled={currentPage === 1}>
+              Back
+              </button>
+            <button onClick={nextPage} disabled={currentPage === Math.ceil(data.length / pageSize)}>
+              Next
+              </button>
+          </div>
+        </div>
     </div>
   );
 }
