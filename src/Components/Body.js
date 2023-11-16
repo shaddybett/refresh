@@ -9,7 +9,7 @@ export default function Body() {
   const [filteredData, setFilteredData] = useState([]);
 
   useEffect(() => {
-    fetch(" http://localhost:4000/articles ")
+    fetch(" http://localhost:4001/articles")
       .then((response) => response.json())
       .then((news) => setData(news))
       .catch((error) => console.error("Sorry sir!", error));
